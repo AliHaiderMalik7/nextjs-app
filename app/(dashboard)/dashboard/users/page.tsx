@@ -1,11 +1,10 @@
 import Link from 'next/link'
 import React from 'react'
 
-const Page = () => {
+export default function Page() {
   return (
-    <div className="text-3xl">
-      <h1>Dashboard Users</h1>
-
+    <div>
+      <h1>User Page</h1>
       <ul className="mt-20">
         <li>
           <Link href="/dashboard/users/1">User 1</Link>
@@ -23,5 +22,3 @@ const Page = () => {
     </div>
   );
 }
-
-export default Page
